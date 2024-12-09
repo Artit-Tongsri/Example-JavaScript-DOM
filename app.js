@@ -13,7 +13,7 @@ function checkAnswer(answer) {
         count++;// เพิ่มคะแนนเมื่อคำตอบถูกต้อง
     }
     else {
-        result.textContent = "ไม่ถูกต้อง! ลองใหม่อีกครั้ง";
+        result.textContent = "ไม่ถูกต้อง! ";
         result.style.color = 'red';
     }
     // แสดงคะแนนรวมทุกครั้งหลังเช็คคำตอบ
@@ -33,7 +33,7 @@ function checkAnswer2(answer) {
         count++;
     }
     else {
-        result.textContent = "ไม่ถูกต้อง! ลองใหม่อีกครั้ง";
+        result.textContent = "ไม่ถูกต้อง! ";
         result.style.color = 'red';
     }
     updateTotalScore();
