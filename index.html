@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ระบบข้อสอบแบบง่าย Simple Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div>
+        <div class="quiz-container">
+            <h1></h1>
+            <p id="question">1. บริษัท เอช เทค เทคโนโลยี จำกัด ทำเกี่ยวกับอะไร ?</p>
+            <button class="button" onclick="checkAnswer('a')">A. ระบบคลังสินค้าอัจฉริยะ</button><br>
+            <button class="button" onclick="checkAnswer('b')">B. ระบบคมนาคม</button><br>
+            <button class="button" onclick="checkAnswer('c')">C. ระบบไฟฟ้าสำหรับโรงงานอุตสาหกรรม</button><br>
+            <button class="button" onclick="checkAnswer('d')">D. ระบบการก่อสร้างบ้าน</button>
+            <p id="result"></p>
+        </div>
+
+        <div class="quiz-container">
+            <h1></h1>
+            <p id="question">2. บริษัท เอช เทค เทคโนโลยี จำกัด ดำเนินธุรกิจมาแล้วกี่ปี ?</p>
+            <button class="button" onclick="checkAnswer2('a')">A. 15 ปี</button><br>
+            <button class="button" onclick="checkAnswer2('b')">B. 16 ปี</button><br>
+            <button class="button" onclick="checkAnswer2('c')">C. 17 ปี</button><br>
+            <button class="button" onclick="checkAnswer2('d')">D. 18 ปี</button>
+            <p id="result2"></p>
+        </div>
+        <p id="result3"></p>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
