@@ -26,7 +26,6 @@ function checkAnswer(answer) {
 function checkAnswer2(answer) {
     if (answered2) return;
     const result = document.getElementById("result2");
-    const result3 = document.getElementById("result3");
     if (answer === "d") {
         result.textContent = "ถูกต้อง เอช เทค ดำเนินธุรกิจมาแล้ว 18 ปี";
         result.style.color = 'green';
